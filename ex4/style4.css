@@ -1,0 +1,105 @@
+body {
+    background-color: black;
+}
+
+.all {
+    height: 700px;
+    width: 500px;
+    color: white;
+    /* background-color: black; */
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.col1 {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.col2 {
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.col3 {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: blue;
+    height: 100%;
+    width: 60%;
+    border-radius: 150px 150px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-hand {
+    width: 15%;
+    height: 60%;
+    background-color: blue;
+    align-self: center;
+    border-radius: 40px;
+}
+
+.body {
+    background-color: blue;
+    width: 60%;
+    height: 95%;
+    align-self: flex-end;
+    border-radius: 0 0 30px 30px;
+}
+
+.right-hand {
+    background-color: blue;
+    width: 15%;
+    height: 60%;
+    align-self: center;
+    border-radius: 40px;
+}
+
+.left-leg {
+    width: 15%;
+    height: 100%;
+    border-radius: 0 0 40px 40px;
+    background-color: blue;
+    right: inherit;
+    margin-right: 5rem;
+}
+
+.right-leg {
+    width: 15%;
+    height: 100%;
+    border-radius: 0 0 40px 40px;
+    background-color: blue;
+}
+
+.eye1 {
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.eye2 {
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.right-hand:hover {
+    background-color: red;
+    transform: rotate(40deg);
+    transform: translate(-50px);
+}
+
+.a:hover {
+    swee;
+}
