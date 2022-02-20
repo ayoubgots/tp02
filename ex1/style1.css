@@ -1,0 +1,41 @@
+.container {
+    padding: 3rem;
+}
+
+.line1 {
+    /* background-color: red; */
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line2 {
+    /* background-color: black; */
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.box {
+    height: 180px;
+    width: 120px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
