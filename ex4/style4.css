@@ -3,8 +3,8 @@ body {
 }
 
 .all {
-    height: 700px;
-    width: 500px;
+    height: 500px;
+    width: 400px;
     color: white;
     /* background-color: black; */
     margin: 0 auto;
@@ -94,12 +94,10 @@ header {
     border-radius: 1rem;
 }
 
-.right-hand:hover {
-    background-color: red;
-    transform: rotate(40deg);
-    transform: translate(-50px);
+.a:hover div {
+    transform: translate(0, 50px);
 }
 
-.a:hover {
-    swee;
+.col2:hover div {
+    transform: translate(0, 50px);
 }
